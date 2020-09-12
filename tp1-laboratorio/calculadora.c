@@ -86,23 +86,24 @@ void Calculadora(void)
         printf("\n");
         printf("\n5.Salir \n");
         printf("\n");
-        opcion = IngresarOpcion(1,5);
+
+        opcion = IngresarOpcion();
 
         // SELECCION DE OPERACION;
         switch(opcion)
         {
-            case 1:
+            case '1':
                 primerNumero = PedirFlotante("1.Ingrese 1er operando(A=x):");
                 banderaPrimerNumero = 0;
                 system("cls");
                 break;
-            case 2:
+            case '2':
                 system("cls");
                 segundoNumero = PedirFlotante("2.Ingrese 2do operando(B=y):");
                 banderaSegundoNumero = 0;
                 system("cls");
                 break;
-            case 3:
+            case '3':
                 if(banderaPrimerNumero == 0 && banderaSegundoNumero == 0)
                 {
                    //Realizando las operaciones;
@@ -132,7 +133,7 @@ void Calculadora(void)
                     continue;
                 }
                 break;
-            case 4:
+            case '4':
                 //system("cls");
                 if(banderaPrimerNumero == 0 && banderaSegundoNumero == 0  && banderaCalcularOperaciones ==0)
                 {
@@ -191,7 +192,7 @@ void Calculadora(void)
                     system("cls");
                 }
                 break;
-            case 5:
+            case '5':
                 printf("\nMuchas gracias por usar nuestra calculadora.\n");
                 break;
 
@@ -246,16 +247,18 @@ float PedirFlotante(char texto[])
 
     return numero;
 }
-int IngresarOpcion(int min, int max)
+int IngresarOpcion()
 {
-    int opcion;
+    char opcion;
     //OPCION Y VALIDACION
     printf("Ingrese una opcion:");
-    scanf("%d", &opcion);
-    while(opcion<min || opcion> max)
+    fflush(stdin);
+    scanf("%c", &opcion);
+    while(opcion!= '1' && opcion!= '2' && opcion!= '3' && opcion!= '4' && opcion!= '5')
     {
         printf("Error, re-ingrese una opcion(1 al 5):");
-        scanf("%d", &opcion);
+        fflush(stdin);
+        scanf("%c", &opcion);
     }
 
     return opcion;

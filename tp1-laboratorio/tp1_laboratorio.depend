@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1599931347 source:c:\users\frankito\desktop\tp github prueba\tp_laboratorio_1-master\mejorando tp1\calculadora.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones-aritmeticas.h"
+	"calculadora.h"
+
+1599930381 c:\users\frankito\desktop\tp github prueba\tp_laboratorio_1-master\mejorando tp1\funciones-aritmeticas.h
+	<stdio.h>
+	<stdlib.h>
+
+1599931510 c:\users\frankito\desktop\tp github prueba\tp_laboratorio_1-master\mejorando tp1\calculadora.h
+	<stdio.h>
+	<stdlib.h>
+
+1599930381 source:c:\users\frankito\desktop\tp github prueba\tp_laboratorio_1-master\mejorando tp1\funciones-aritmeticas.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones-aritmeticas.h"
+
+1599930381 source:c:\users\frankito\desktop\tp github prueba\tp_laboratorio_1-master\mejorando tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"funciones-aritmeticas.h"
+	"calculadora.h"
+

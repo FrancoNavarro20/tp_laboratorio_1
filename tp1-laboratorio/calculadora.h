@@ -12,14 +12,14 @@
 float PedirFlotante(char texto[]);
 
 
-/** \brief la funcion pide que ingreses una opcion en numeros, y te valida en que rango de numeros podes ingresarlo.
+/** \brief la funcion pide que ingreses una opcion en numeros, y te valida en que esas opciones no sean 1,2,3,4,5.
  *
  * \param int min, la cantidad minima para validar la opcion ingresada.
  * \param int max, la cantidad maxima para validar la opcion ingresada.
  * \return retorna la opcion validada.
  *
  */
-int IngresarOpcion(int min, int max);
+int IngresarOpcion();
 
 
 
