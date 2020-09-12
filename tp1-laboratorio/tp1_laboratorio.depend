@@ -30,3 +30,34 @@
 	"funciones-aritmeticas.h"
 	"calculadora.h"
 
+1599932138 source:c:\users\frankito\desktop\github\tp_laboratorio_1\tp1-laboratorio\calculadora.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones-aritmeticas.h"
+	"calculadora.h"
+
+1599930381 c:\users\frankito\desktop\github\tp_laboratorio_1\tp1-laboratorio\funciones-aritmeticas.h
+	<stdio.h>
+	<stdlib.h>
+
+1599931510 c:\users\frankito\desktop\github\tp_laboratorio_1\tp1-laboratorio\calculadora.h
+	<stdio.h>
+	<stdlib.h>
+
+1599930381 source:c:\users\frankito\desktop\github\tp_laboratorio_1\tp1-laboratorio\funciones-aritmeticas.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones-aritmeticas.h"
+
+1599930381 source:c:\users\frankito\desktop\github\tp_laboratorio_1\tp1-laboratorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"funciones-aritmeticas.h"
+	"calculadora.h"
+

@@ -233,7 +233,7 @@ void Calculadora(void)
 
 
 
-    }while(opcion != 5);
+    }while(opcion != '5');
 
 }
 
