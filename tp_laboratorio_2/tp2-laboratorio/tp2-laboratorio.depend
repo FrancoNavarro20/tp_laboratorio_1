@@ -24,3 +24,28 @@
 
 1601688592 c:\users\frankito\desktop\programacion c - utn\tp2-laboratorio\utn_estructuras.h
 
+1601688676 source:c:\users\frankito\desktop\github\tp_laboratorio_1\tp_laboratorio_2\tp2-laboratorio\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleados.h"
+	"utn_estructuras.h"
+
+1601687874 c:\users\frankito\desktop\github\tp_laboratorio_1\tp_laboratorio_2\tp2-laboratorio\empleados.h
+
+1601688592 c:\users\frankito\desktop\github\tp_laboratorio_1\tp_laboratorio_2\tp2-laboratorio\utn_estructuras.h
+
+1601687723 source:c:\users\frankito\desktop\github\tp_laboratorio_1\tp_laboratorio_2\tp2-laboratorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleados.h"
+	"utn_estructuras.h"
+
+1601684645 source:c:\users\frankito\desktop\github\tp_laboratorio_1\tp_laboratorio_2\tp2-laboratorio\utn_estructuras.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn_estructuras.h"
+
